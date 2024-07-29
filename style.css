@@ -474,8 +474,19 @@ footer{
     overflow: hidden;
 } */
 
+.advantage_site {
+    width: 1500px;
+    background-image: url("Why.jpeg");
+    background-size: contain;
+}
+
 .advantages {
-    vertical-align: middle;
+    padding-bottom: 40px;
+}
+
+.trust_question {
+    padding-top: 50px;
+    padding-left: 20px;
 }
 
 .advantage_1, .advantage_2, .advantage_3, .advantage_4, .advantage_5, .advantage_6, .advantage_7 {
