@@ -14,33 +14,25 @@
             et accéder à votre espace personnel</p>
         <form id="loginForm" action="#" method="post">
             <div class="form-group">
-                <label for="name">Name / Noms</label>
-                <input type="text" id="name" name="name" value="" required>
+                <label for="name" value="__('Name')">Name / Noms</label>
+                <input type="text" id="name" name="name" value="old('name')" required>
             </div>
             <div class="form-group">
-                <label for="email">Email address / Adresse email</label>
-                <input type="email" id="email" name="email" value="" required>
+                <label for="email" value="__('Email')">Email address / Adresse email</label>
+                <input type="email" id="email" name="email" value="old('email')" required>
             </div>
             <div class="form-group">
-                <label for="phone">Phone number / Numéro de Téléphone</label>
-                <input type="tel" id="phone" name="phone" value="" required>
+                <label for="phone" value="__('phone')">Phone number / Numéro de Téléphone</label>
+                <input type="tel" id="phone" name="phone" value="old('phone')" required>
             </div>
             <div class="form-group">
-                <label for="password">Password / Mot de passe</label>
-                <input type="password" id="password" name="password" value="" required>
+                <label for="password" value="__('Password')">Password / Mot de passe</label>
+                <input type="password" id="password" name="password" required>
             </div>
             <div class="form-group">
-                <label for="confirm_password">Confirm password / Confirmez le mot de passe</label>
-                <input type="password" id="confirmPassword" name="confirmPassword" value="" required>
+                <label for="password_confirmation" value="__('Confirm Password')">Confirm password / Confirmez le mot de passe</label>
+                <input type="password" id="password_confirmation" name="password_confirmation" required>
             </div>
-            <!-- <div class="form-group">
-                <input type="checkbox" id="newsletter" name="newsletter" required>
-                <label for="newsletter">Subscribe to the newsletter / Souscrire à la newsletter.</label>
-            </div>
-            <div class="form-group">
-                <input type="checkbox" id="terms" name="terms" required>
-                <label for="terms">I agree with the / J'ai lue et accepter les terms and conditions / terms et conditions.</label>
-            </div> -->
             <div class="form-group">
                     <button type="submit">Submit / S'inscrire</button>
             </div>
