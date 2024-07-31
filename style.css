@@ -475,9 +475,11 @@ footer{
 } */
 
 .advantage_site {
-    width: 1500px;
-    background-image: url("Why.jpeg");
+    width: 1400px;
+    background-image: url("why.jpeg");
     background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .advantages {
