@@ -127,14 +127,13 @@ p {
 }
 
 
-/*Display of events section*/
+/* /Display of events section/ */
 .first{
     text-align: center;
     background-color: #fff;
 }
 
 .body1{
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
     display: flex;
@@ -157,7 +156,7 @@ p {
     border: 1px solid #f5f4fe;
     width: 300px;
     height: 360px;
-    margin-left: 1rem;
+    margin-left: 10px;
     border-radius: 8px;
     box-shadow: 1px;
     background-color: #f5f4fe;
@@ -254,32 +253,18 @@ li{
 
  } */  
 
-.event1{
+.event1, .event2, .event3, .event4, .event5, .event6 {
     display: inline-block;
 }
-.event2{
-    display: inline-block;
-}
-.event3{
-    display: inline-block;
-}
-.event4{
-    display: inline-block;
-}
-.event5{
-    display: inline-block;
-}
-.event6{
-    display: inline-block;
-}
+
 .deux{
     margin-bottom: 3rem;
 }
 main ,.deux{
     display: flex;
-      justify-content: center;
-      gap: 10px; /* Space between cards */
-      margin: 1rem;
+    justify-content: center;
+    gap: 10px; /* Space between cards */
+    margin: 3rem;
 }
 ol{
     padding-left: 10px;
@@ -308,6 +293,7 @@ ol img[alt="icon2"]{
     padding-top: 80px;
     padding-left: 150px;
     align-items: center;
+    margin-left: 50px;
 
 }
 .side1{
@@ -457,6 +443,14 @@ footer{
     margin-top: 40px;
 }
 
+.advantage_site {
+    width: 1400px;
+    background-image: url(img/why.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .advantages {
     vertical-align: middle;
 }
@@ -498,7 +492,6 @@ footer{
 .advantage_7 {
     margin-left: 210px;
 }
-
 
 /* Responsive */
 /* Responsive adjustments */
