@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EVENT WEBSITE</title>
-   <link rel="stylesheet" href="beauty.css">
+   <link rel="stylesheet" href="style.css">
+   <!-- <script defer src="main.js"></script> -->
 </head>
 
 <body>
@@ -22,14 +23,17 @@
                 </nav>
             </div>
             <div class="header-right">
-                <button onclick="location.href='signup.html'">S'inscrire</button>
-                <button onclick="location.href='login.html'">Se connecter</button>
-                </nav>
+                <div class="inscrire">
+                    <button onclick="location.href='signup.html'">S'inscrire</button>
+                </div>
+                <div class="connecter">
+                    <button onclick="location.href='login.html'">Se connecter</button>
+                </div>
             </div>
         </div>
     </header>
 
-    <section id="#accueil" class="three">
+    <section id="#accueil">
         <div class="content">
             <h1>
                 Buy ton ticket un tour!!!!!!!
@@ -38,16 +42,16 @@
                 Yo mola j'ai mon ticket et toi?<br>
                 Mais qu'est ce que tu attend!?
             </p>
-            <button>Acheter</button>
+            <button onclick="location.href='first.html'">Acheter</button>
         </div>
         <div class="main-content">
             <div class="left">
-                <h3>Tu as un evenements?</h3>
-                <p class="pcls">Ne stress pas!!!<br>Envoie nous ton ticket!!!</p>
-                <button class="prime">Vend ton ticket</button>
+                <h1 class="left_h1">Tu as un evenement ?</h1>
+                <p class="left_p">Ne stresses pas!!!<br>Envoie nous ton ticket!!!</p>
+                <button>Vend ton ticket</button>
             </div>
             <div class="right">
-                <img src="img/qr_code.jpg" alt="qr-code">
+                <!-- <img src="img/.jpeg" alt="qr-code" width="600px" height="410px"> -->
             </div>
         </div>
     </section>
@@ -60,12 +64,12 @@
 
         <main>
                 <div class="event1">
-                <div class="ection1">
+                <div class="section1">
                     <div class="card">
                         <div class="img_container">
                             <div><img src="img/rose.png" alt="super star"></div>
                         </div>
-                            <h3> concert cycoul</h3> 
+                            <h3>Concert Cysoul</h3> 
                             <div class="align">
                             <div class="second">
                                 <ol>
@@ -96,7 +100,7 @@
                         <div class="img_container2">
                             <div> <img src="img/football.jpeg" alt="super star"></div>
                         </div>
-                            <h3> concert cycoul</h3> 
+                            <h3>Concert Cysoul</h3> 
                             <div class="align">
                             <div class="second">
                                 <ol>
@@ -129,7 +133,7 @@
                         <div class="img_container3">
                             <div> <img src="img/OIP.jpeg" alt="super star"></div>
                         </div>
-                            <h3> concert cycoul</h3> 
+                            <h3>Concert Cysoul</h3> 
                             <div class="align">
                             <div class="second">
                                 <ol>
@@ -163,7 +167,7 @@
                         <div class="img_container">
                             <div> <img src="img/R.gif" alt="super star"></div>
                         </div>
-                            <h3> concert cycoul</h3> 
+                            <h3>Concert Cysoul</h3> 
                             <div class="align">
                             <div class="second">
                                 <ol>
@@ -196,7 +200,7 @@
                         <div class="img_container">
                             <div> <img src="img/basketball.gif" alt="super star"></div>
                         </div>
-                            <h3> concert cycoul</h3> 
+                            <h3>Concert Cysoul</h3> 
                             <div class="align">
                             <div class="second">
                                 <ol>
@@ -229,7 +233,7 @@
                         <div class="img_container">
                             <div> <img src="img/party.gif" alt="super star"></div>
                         </div>
-                            <h3> concert cycoul</h3> 
+                            <h3>Concert Cysoul</h3> 
                             <div class="align">
                             <div class="second">
                                 <ol>
@@ -257,30 +261,30 @@
         </div>
     </section>
 
-    <section class="b">
+    <section class="advantage_site">
         <h1 class="h1">
             <b>Pourquoi nous choisir?</b>
         </h1>
         <div class="advantages">
-            <div id="_1_">
+            <div class="advantage_1">
                <b>Intéraction et engagement</b>
             </div>
-            <div id="_2_">
+            <div class="advantage_2">
                 <b>Inscriptions 24/7</b>
             </div>
-            <div id="_3_">
+            <div class="advantage_3">
                <b>Inscriptions Éfficaces</b>
             </div>
-            <div id="_4_">
+            <div class="advantage_4">
                 <b>Données Sécurisées</b>
             </div>
-            <div id="_5_">
+            <div class="advantage_5">
                 <b>Gestion simplifiée</b>
             </div>
-            <div id="_6_">
+            <div class="advantage_6">
                <b>Visibilité accrue</b>
             </div>
-            <div id="_7_">
+            <div class="advantage_7">
                 <b>Processus Écologique</b>
             </div>
         </div>
@@ -292,7 +296,7 @@
                 <h4>ABOUT US</h4>
             </div>
             <div class="wel">
-                <p>Welcome to [TicketTrove], your go-to platform for booking tickets to the most exciting events around!
+                <p>Welcome to <span>EventFlow</span>, your go-to platform for booking tickets to the most exciting events around!
                     Whether you're looking for concerts, sport games, shows, or any other live experience, we got your
                     covered. Our misssion is to make it convenient for you to find and book your favourite events, all
                     in one place.</p>
@@ -322,7 +326,7 @@
         </section>
     </section>
     <footer>
-        <p>2024 &copy; TicketTrove, ALL RIGHTS RESERVED.</p>
+        <p>2024 &copy; <span>EventFlow</span>, ALL RIGHTS RESERVED.</p>
     </footer>
     
 </body>
